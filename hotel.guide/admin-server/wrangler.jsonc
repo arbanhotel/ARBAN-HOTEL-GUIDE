@@ -1,0 +1,14 @@
+{
+  "name": "arban-guide-admin",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-01",
+  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": true},
+  "r2_buckets": [{"binding": "CONTENT", "bucket_name": "arban-guide-content"}],
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "REPLACE.cloudflareaccess.com",
+    "ACCESS_AUD": "REPLACE",
+    "ADMIN_EMAILS": "REPLACE",
+    "GUIDE_URL": "https://songjieun2006-collab.github.io/ARBAN-HOTEL/hotel.guide/"
+  },
+  "observability": {"enabled": false}
+}

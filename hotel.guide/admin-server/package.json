@@ -1,0 +1,16 @@
+{
+  "name": "arban-admin-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "test": "node --test test.mjs"
+  },
+  "dependencies": {
+    "jose": "^6.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
