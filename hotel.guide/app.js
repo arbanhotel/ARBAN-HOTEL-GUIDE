@@ -164,7 +164,7 @@
   </span>
 
   <span class="cover-title-main">
-    <span class="cover-city">부산</span> 여행 가이드
+    <span class="cover-city">서면</span> 여행 가이드
   </span>
 </h1>
 
@@ -849,7 +849,7 @@
 
     const pageTitle = heading
       ? heading.textContent.replace(/\s+/g, " ").trim()
-      : "부산 여행 가이드";
+      : "서면 여행 가이드";
 
     document.title = pageTitle + " · " + hotel.name;
 
